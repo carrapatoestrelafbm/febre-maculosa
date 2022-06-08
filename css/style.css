@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #00cc99;
+}
+
+h2 {
+    margin: 50px 0 35px 0!important;
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+    font-size: 32px!important;
+    color: #00cc99!important;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+strong {
+    color: #00cc99;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+.container__ {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: #E6E6E6; */
+    background: #00cc99;
+    border-radius: 25px;
+    width: 70%;
+    padding: 20px 0;
+    margin: 30px auto;
+}
+
+.topo__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topo__menu .menu__item {
+    list-style: none;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.topo__menu .menu__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    text-align: center;
+    margin: 90px 0;
+}
+
+.divisao {
+    width: 50%;
+}
+
+.oQueE__list {
+    margin-left: 20px;
+}
+
+.oQueE__list li {
+    margin-bottom: 13px;
+}
+
+.box, .box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box__item {
+    background: #00cc99;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto-imagem {
+    display: flex;
+    align-items: center;
+}
+
+.diagnostico .box {
+    flex-direction: column;
+}
+
+.sintomas .col-sm-4 {
+    text-align: center;
+
+}
+
+footer {
+    background: #00cc99;
+    margin-top: 50px;
+}
+
+footer .container__ {
+    display: flex!important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 820px) {
+    .container__ {
+        width: 90%;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .texto-imagem {
+        flex-direction: column;
+    }
+
+    .topo {
+        width: 95%;
+    }
+
+    .topo__menu {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .topo__logo {
+        display: none;
+    }
+}
